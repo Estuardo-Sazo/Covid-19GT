@@ -1,0 +1,242 @@
+.title1{
+    margin-top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8vh;
+    line-height: 28px;
+    text-align: center;
+
+    color: #02A8F3;
+
+}
+.title2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vh;
+    line-height: 23px;
+    text-align: center;
+margin: 5px;
+    color: #000000;
+}
+.title3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vh;
+    line-height: 16px;
+    text-align: center;
+    margin: 5px;
+    color: #000000;
+}
+.nuevo-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    color: #E4AB18;
+
+}
+.nuevo-dato{
+    font-family: Roboto;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 68px;
+    text-align: center;
+    margin: 0;
+    color: #E4AB18;
+
+}
+.recuperado-title{
+
+    font-family: Roboto;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #02A8F3;
+}
+
+.recuperado-dato{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 68px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #02A8F3;
+}
+
+.fallecido-title{
+
+    font-family: Roboto;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FF6243;
+}
+
+.fallecido-dato{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 68px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FF6243;
+}
+.prueba-title{
+
+    font-family: Roboto;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #53CD6E;
+}
+
+.prueba-dato{
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 68px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #53CD6E;
+}
+
+
+.img-p{
+    position: absolute;
+    width: 10%;
+    display: flex;
+    left: 80%;
+    top: 1%;
+}
+
+.tarjeta{
+   
+    background: #FFFDFD;
+    border: 1px solid rgb(194, 194, 199);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 2%;
+    }
+
+    .img-dato{
+        
+        width: 30%;
+        
+    }
+    .img-center{
+        width: 100%;
+        
+    }
+
+    .btn-general{
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #000000;
+        background: #53CD6E;
+        border-radius: 18px;
+    }
+    .btn-general:hover{
+        
+        background: rgb(47, 44, 223);
+        
+    }
+
+@media screen and (max-width: 750px) {
+    .title1 {
+        font-size: 24px;
+    }
+    .recuperado-dato{
+        font-size: 58px;
+    }
+    .nuevo-dato{
+        font-size: 58px;
+    }
+    .nuevo-title{
+        font-size: 13px;
+        margin: 0;
+    }
+    .fallecido-dato{
+        font-size: 58px;
+    }
+    .fallecido-title{
+        font-size: 13px;
+        margin: 0;
+    }
+    .prueba-dato{
+        font-size: 58px;
+    }
+    .prueba-title{
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .recuperado-title{
+        font-size: 13px;
+        margin: 0;
+    }
+    .title2{
+        font-size: 20px;
+        margin: 0;
+    }
+    .title3{
+        font-size: 14px;
+        margin: 0;
+    }
+    .img-p{
+        width: 15%;
+        top: 2%;
+        left: 85%;
+    }
+    .btn-genera{
+        margin: 0;
+    }
+
+  }
